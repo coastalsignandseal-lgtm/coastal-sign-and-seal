@@ -99,3 +99,7 @@ body:has(.service-collection) .eyebrow{font-family:'Palatino Linotype','Book Ant
 
 /* Keep the featured Written in the Tides card the same white as the other packages. */
 body:has(.service-collection) .service-card.feature{background:rgba(255,255,255,.89)!important}
+
+/* Turtle has a wider, diagonal silhouette than the oyster/starfish. Size it independently. */
+.redesigned-header .nav-sea-icon.nav-sea-turtle{width:44px;height:40px;flex:0 0 44px;overflow:visible}
+@media(max-width:760px){.redesigned-header .nav-sea-icon.nav-sea-turtle{width:26px;height:26px;flex-basis:26px}}
