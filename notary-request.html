@@ -19,7 +19,8 @@ if(!regular){schedule=15;reason='outside regular hours';}
 if(priority.value==='rush'&&schedule<20){schedule=20;reason='priority appointment';}
 const notarization=count*10;
 const complete=Boolean(date.value&&time.value);
-const schedulingText=!complete?'Choose a date and time to include any scheduling fee.':'';
+if(!complete){schedule=0;reason='';}
+const schedulingText=!complete?'Choose a date and time to calculate any scheduling fee. ':'';
 if(travel<0){
 estimate.textContent='Estimated notarization: $'+notarization+'. Travel requires a custom quote'+(complete?'; scheduling fee: $'+schedule:'')+'. '+schedulingText+' Final total confirmed before booking.';
 }else{
