@@ -4,8 +4,8 @@
  const notice=document.getElementById('wedding-travel-notice');
  const messages={
  'within-90':'Good news! Travel within 90 minutes one-way of Palm Bay is included in your ceremony package.',
- '90-120':'Your ceremony may have an additional $50 travel fee. I’ll confirm the exact location and travel time with you before booking.',
- '120-180':'Your ceremony may have an additional $125 travel fee. I’ll confirm the exact location and travel time with you before booking.',
+ '90-120':'Your ceremony has an additional $50 travel fee. I’ll confirm the exact location and travel time with you before booking.',
+ '120-180':'Your ceremony has an additional $125 travel fee. I’ll confirm the exact location and travel time with you before booking.',
  'over-180':'I’d love to hear where you’re planning your ceremony! Longer-distance travel is available by arrangement, and I’ll confirm the travel quote with you before booking.'
  };
  range.addEventListener('change',function(){notice.textContent=messages[range.value]||'';notice.hidden=!messages[range.value];});
