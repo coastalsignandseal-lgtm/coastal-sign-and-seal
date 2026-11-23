@@ -33,3 +33,23 @@ body:has(.service-collection) .service-card li+li{border-top:1px solid #edf4f3}
 body:has(.service-collection) .service-card h2{font-style:italic}
 body:has(.service-collection) .travel-section>p{margin-left:auto;margin-right:auto}
 body:has(.service-collection) .service-note{border-left:0;border-top:2px solid #73aaa8;border-radius:22px;padding:1.5rem 2rem}
+
+/* Wedding page only: airy, playful sea-glass backdrop and less formal typography. */
+body:has(.service-collection){background:radial-gradient(ellipse 460px 330px at 7% 16%,rgba(180,225,226,.38),transparent 75%),radial-gradient(ellipse 540px 420px at 94% 38%,rgba(197,230,227,.52),transparent 74%),radial-gradient(ellipse 420px 360px at 12% 74%,rgba(217,237,235,.62),transparent 76%),linear-gradient(180deg,#fffdfa 0%,#f0faf9 47%,#fffdf9 100%);}
+body:has(.service-collection) .page{font-family:'Trebuchet MS',Arial,sans-serif;font-size:1.04rem;line-height:1.75}
+body:has(.service-collection) .service-lead p,
+body:has(.service-collection) .service-intro p,
+body:has(.service-collection) .service-card p,
+body:has(.service-collection) .service-card li,
+body:has(.service-collection) .travel-section p,
+body:has(.service-collection) .travel-row small,
+body:has(.service-collection) .service-note{font-family:'Trebuchet MS',Arial,sans-serif;font-size:1.02rem;line-height:1.75;letter-spacing:0}
+body:has(.service-collection) .service-card h2{font-family:'Trebuchet MS',Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:-.025em;font-size:clamp(1.7rem,3vw,2.1rem);line-height:1.28;margin-bottom:.75rem}
+body:has(.service-collection) .service-card h2::after{content:'';display:block;width:86px;max-width:65%;height:2px;border-radius:100%;margin:.85rem auto .25rem;background:linear-gradient(90deg,transparent,#75b5b7 22%,#75b5b7 78%,transparent)}
+body:has(.service-collection) .service-card{background:rgba(255,255,255,.89);box-shadow:0 12px 38px rgba(50,116,127,.075)}
+body:has(.service-collection) .service-card.feature{background:rgba(230,248,246,.94)}
+body:has(.service-collection) .service-intro{background:linear-gradient(125deg,rgba(223,246,244,.96),rgba(249,253,252,.94));box-shadow:0 12px 36px rgba(53,120,125,.07)}
+body:has(.service-collection) .service-intro h2{font-family:'Trebuchet MS',Arial,sans-serif;font-style:normal;font-size:clamp(1.9rem,4vw,2.5rem);letter-spacing:-.035em}
+body:has(.service-collection) .service-lead h1{font-family:'Trebuchet MS',Arial,sans-serif;font-size:clamp(2.9rem,6vw,4.9rem);letter-spacing:-.045em}
+body:has(.service-collection) .travel-section h2{font-family:'Trebuchet MS',Arial,sans-serif;font-style:normal}
+body:has(.service-collection) .travel-row span{font-family:'Trebuchet MS',Arial,sans-serif;font-style:normal}
