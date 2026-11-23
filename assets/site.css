@@ -342,3 +342,7 @@ html body > div.service-sticky-action > a > small{display:block!important;width:
 /* Uploaded authentic first-wedding photo on Impressions. */
 .impression-photo-slot{overflow:hidden}
 .impression-photo-slot img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;border-radius:inherit}
+
+/* Impressions: center the photograph itself, with rounded photo corners and no surrounding frame. */
+.impression-story .impression-photo-slot{display:flex;align-items:center;justify-content:center;width:100%;max-width:610px;min-height:0;margin:0 auto;padding:0;border:0;background:none;box-shadow:none;border-radius:0;overflow:visible}
+.impression-story .impression-photo-slot img{display:block;width:auto;max-width:100%;height:auto;max-height:650px;margin:0 auto;border-radius:28px;object-fit:contain;box-shadow:none}
