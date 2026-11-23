@@ -226,3 +226,14 @@ body:has(.service-collection) .service-lead h1::after{
 .about-page .about-bubble p{font:400 clamp(1.05rem,1.7vw,1.15rem)/1.9 'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;max-width:720px;margin:0 auto 1.45rem;color:#476773}
 .about-page .about-bubble p:last-child{margin-bottom:0}
 @media(max-width:760px){.about-page .about-lead{padding:2.4rem 1.3rem;border-radius:10px 42px 10px 42px}.about-page .about-bubble{padding:2rem 1.3rem;border-radius:28px 28px 48px 28px}}
+
+/* Consistent centered Palatino typography matching the approved wedding package cards. */
+.impressions-page,.about-page,.contact-page{font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;text-align:center}
+.impressions-page .impressions-lead h1,.about-page .about-lead h1,.contact-page .contact-lead h1{font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;text-align:center}
+.impressions-page .impressions-lead p,.impressions-page .impression-copy h2,.impressions-page .impression-copy p,.about-page .about-lead p,.about-page .about-bubble p,.contact-page .contact-lead p,.contact-page .contact-details h2,.contact-page .contact-details p,.contact-page .contact-choice h2,.contact-page .contact-choice p{font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;text-align:center!important}
+.impressions-page .impression-story{grid-template-columns:minmax(0,1fr);max-width:820px;gap:1.7rem;text-align:center}
+.impressions-page .impression-photo-slot{width:min(100%,610px);min-height:360px;margin:0 auto}
+.impressions-page .impression-copy{width:100%;max-width:760px;margin:0 auto;text-align:center}
+.impressions-page .impression-copy h2{font-size:clamp(2rem,3.5vw,2.6rem);font-style:italic}
+.impressions-page .impression-copy p{font-size:1.13rem;line-height:1.85;max-width:720px;margin:0 auto 1.2rem}
+@media(max-width:760px){.impressions-page .impression-photo-slot{min-height:270px}}
