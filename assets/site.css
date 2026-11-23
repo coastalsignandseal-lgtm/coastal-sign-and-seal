@@ -103,3 +103,6 @@ body:has(.service-collection) .service-card.feature{background:rgba(255,255,255,
 /* Turtle has a wider, diagonal silhouette than the oyster/starfish. Size it independently. */
 .redesigned-header .nav-sea-icon.nav-sea-turtle{width:44px;height:40px;flex:0 0 44px;overflow:visible}
 @media(max-width:760px){.redesigned-header .nav-sea-icon.nav-sea-turtle{width:26px;height:26px;flex-basis:26px}}
+
+/* Quiet, editorial informational notes for group appointments and gratuities. */
+.appreciation-note{max-width:850px;margin:2.2rem auto;padding:1.5rem 2rem;text-align:center;border-top:1px solid #d8e9e8;border-bottom:1px solid #d8e9e8;color:#24536b;background:rgba(234,245,244,.3)}.appreciation-note h2{font-family:Palatino,'Palatino Linotype',Georgia,serif;font-weight:400;font-style:italic;color:#397e83;margin:.15rem 0 .7rem}.appreciation-note p{margin:.65rem auto;max-width:700px;line-height:1.75}.planner-gratuity{font-size:.92rem;color:#397e83;margin:1rem 0}
