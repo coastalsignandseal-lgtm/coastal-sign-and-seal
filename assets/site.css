@@ -152,3 +152,21 @@ body:has(.service-collection) .service-lead p{
   max-width:610px;margin:0 auto!important;font-size:1.03rem!important;line-height:1.75;
 }
 @media(max-width:760px){body:has(.service-collection) .page{padding-top:2.8rem}body:has(.service-collection) .service-lead{padding:2.4rem 1.3rem;border-radius:10px 42px 10px 42px}}
+
+/* Service-title flourish: homepage outline hearts flanking the hand-drawn sea-glass wave. Keep current title typography. */
+body:has(.service-collection) .service-lead h1::after{
+  content:'♡'!important;display:block!important;box-sizing:border-box;
+  width:226px!important;max-width:75%!important;height:26px!important;
+  margin:15px auto 18px!important;border:0!important;
+  font:400 24px/26px Georgia,serif!important;letter-spacing:0!important;
+  color:#b38d52!important;text-align:left!important;text-indent:0!important;
+  background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 152 22'%3E%3Cpath d='M3 11 C18 2 31 20 46 11 S75 2 90 11 S119 20 134 11 S143 7 149 11' fill='none' stroke='%2375adb0' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E") center center/152px 22px no-repeat!important;
+  position:relative;
+}
+/* Right heart matches the outline heart used on the homepage. */
+body:has(.service-collection) .service-lead{position:relative}
+body:has(.service-collection) .service-lead h1{position:relative}
+body:has(.service-collection) .service-lead h1::before{
+  content:'♡';position:absolute;left:calc(50% + 93px);bottom:-44px;
+  color:#b38d52;font:400 24px/26px Georgia,serif;pointer-events:none;
+}
