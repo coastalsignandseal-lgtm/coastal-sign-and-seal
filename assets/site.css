@@ -53,3 +53,12 @@ body:has(.service-collection) .service-intro h2{font-family:'Trebuchet MS',Arial
 body:has(.service-collection) .service-lead h1{font-family:'Trebuchet MS',Arial,sans-serif;font-size:clamp(2.9rem,6vw,4.9rem);letter-spacing:-.045em}
 body:has(.service-collection) .travel-section h2{font-family:'Trebuchet MS',Arial,sans-serif;font-style:normal}
 body:has(.service-collection) .travel-row span{font-family:'Trebuchet MS',Arial,sans-serif;font-style:normal}
+
+/* Wedding packages: unmistakable hand-drawn wave below each title, followed by sea-glass price. */
+body:has(.service-collection) .service-card h2::after{
+  content:""!important;display:block!important;width:146px!important;height:18px!important;max-width:85%!important;
+  margin:10px auto 8px!important;border:0!important;border-radius:0!important;
+  background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 20'%3E%3Cpath d='M3 10 C17 1 29 19 43 10 S69 1 83 10 S109 19 123 10 S145 1 157 10' fill='none' stroke='%2375adb0' stroke-width='2.3' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat!important;
+}
+body:has(.service-collection) .service-card .price{color:#337e89!important;font-family:'Trebuchet MS',Arial,sans-serif!important;font-size:1.25rem!important;font-weight:700!important;letter-spacing:.025em!important;margin:.1rem 0 .7rem!important}
+body:has(.service-collection) .travel-row strong{color:#337e89!important}
