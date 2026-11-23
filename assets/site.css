@@ -126,3 +126,29 @@ body:has(.service-collection) .service-lead p{max-width:700px;margin:0 auto 1.5r
 
 /* Updated preview: upright, airy service titles while retaining the ocean wave. */
 body:has(.service-collection) .service-lead h1{font-style:normal!important;letter-spacing:.015em!important;font-weight:400!important;font-size:clamp(2.9rem,6vw,5rem)!important}
+
+/* Alternative service-page introduction: an independent coastal title panel, not a logo echo. */
+body:has(.service-collection) .page{padding-top:4.6rem}
+body:has(.service-collection) .service-lead{
+  max-width:900px;margin:0 auto 3.5rem;padding:3.1rem 2.5rem 2.7rem;
+  background:linear-gradient(135deg,rgba(234,247,245,.93),rgba(255,253,249,.96));
+  border:1px solid #d5e6e3;border-radius:12px 68px 12px 68px;
+  box-shadow:0 12px 32px rgba(42,93,105,.055);text-align:center;
+}
+body:has(.service-collection) .service-lead .eyebrow{
+  font:400 11px Georgia,serif!important;letter-spacing:.25em!important;color:#8b805e;
+}
+body:has(.service-collection) .page .service-lead h1{
+  font-family:Georgia,'Times New Roman',serif!important;font-style:normal!important;
+  font-size:clamp(2.45rem,5vw,4.2rem)!important;font-weight:400!important;
+  letter-spacing:-.045em!important;line-height:1.17!important;color:#25576b!important;
+  margin:1.05rem auto 1rem!important;
+}
+body:has(.service-collection) .service-lead h1::after{
+  content:''!important;display:block;width:58px;height:1px;max-width:none;
+  margin:1.25rem auto 1.35rem;background:#b89b69!important;
+}
+body:has(.service-collection) .service-lead p{
+  max-width:610px;margin:0 auto!important;font-size:1.03rem!important;line-height:1.75;
+}
+@media(max-width:760px){body:has(.service-collection) .page{padding-top:2.8rem}body:has(.service-collection) .service-lead{padding:2.4rem 1.3rem;border-radius:10px 42px 10px 42px}}
