@@ -62,3 +62,37 @@ body:has(.service-collection) .service-card h2::after{
 }
 body:has(.service-collection) .service-card .price{color:#337e89!important;font-family:'Trebuchet MS',Arial,sans-serif!important;font-size:1.25rem!important;font-weight:700!important;letter-spacing:.025em!important;margin:.1rem 0 .7rem!important}
 body:has(.service-collection) .travel-row strong{color:#337e89!important}
+
+/* Wedding typography: classic, warm book-serif rather than geometric/block lettering.
+   Palatino is a standard system serif; Georgia is a reliable fallback. */
+body:has(.service-collection) .page,
+body:has(.service-collection) .service-lead p,
+body:has(.service-collection) .service-intro p,
+body:has(.service-collection) .service-card p,
+body:has(.service-collection) .service-card li,
+body:has(.service-collection) .travel-section p,
+body:has(.service-collection) .travel-row small,
+body:has(.service-collection) .service-note{
+  font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;
+  font-size:1.08rem;line-height:1.82;letter-spacing:0;font-weight:400;
+}
+body:has(.service-collection) .service-lead h1,
+body:has(.service-collection) .service-intro h2,
+body:has(.service-collection) .service-card h2,
+body:has(.service-collection) .travel-section h2,
+body:has(.service-collection) .travel-row span{
+  font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;
+  font-weight:400!important;letter-spacing:-.018em!important;
+}
+body:has(.service-collection) .service-card h2{
+  font-size:clamp(1.9rem,3.1vw,2.4rem)!important;
+  font-style:italic!important;line-height:1.22!important;
+}
+body:has(.service-collection) .service-lead h1{font-style:normal!important}
+body:has(.service-collection) .service-intro h2,
+body:has(.service-collection) .travel-section h2{font-style:italic!important}
+body:has(.service-collection) .service-card .price{
+  font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;
+  font-weight:600!important;font-size:1.4rem!important;color:#337e89!important;
+}
+body:has(.service-collection) .eyebrow{font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;font-size:.85rem;letter-spacing:.14em}
