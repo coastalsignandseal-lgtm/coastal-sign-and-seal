@@ -123,3 +123,6 @@ body:has(.service-collection) .service-lead h1::after{
   background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 172 22'%3E%3Cpath d='M5 11 C20 2 34 20 49 11 S78 2 93 11 S122 20 137 11 S156 2 167 11' fill='none' stroke='%2375adb0' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat;
 }
 body:has(.service-collection) .service-lead p{max-width:700px;margin:0 auto 1.5rem}
+
+/* Updated preview: upright, airy service titles while retaining the ocean wave. */
+body:has(.service-collection) .service-lead h1{font-style:normal!important;letter-spacing:.015em!important;font-weight:400!important;font-size:clamp(2.9rem,6vw,5rem)!important}
