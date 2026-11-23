@@ -273,3 +273,12 @@ body:has(.service-collection) .service-lead h1::after{
 .service-sticky-action a{pointer-events:auto;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.75rem 1.45rem;border:1px solid #c5e0dc;border-radius:999px;background:#397c85;color:#fff;text-decoration:none;box-shadow:0 7px 22px rgba(24,73,83,.2);font:600 1.06rem 'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;white-space:nowrap}
 .service-sticky-action a:hover,.service-sticky-action a:focus-visible{background:#235d69}
 @media(max-width:600px){.service-sticky-action{top:8px;margin:-2.8rem 0 .7rem}.service-sticky-action a{font-size:.96rem;min-height:44px;padding:.55rem 1rem}}
+
+/* Keep floating booking control outside the centered reading column. */
+@media(min-width:1250px){
+ .service-sticky-action{width:max-content;margin:-2.6rem 0 .5rem auto;transform:translateX(calc((100vw - min(930px, 100vw - 3rem))/2 - 100% - 18px));}
+}
+@media(min-width:761px) and (max-width:1249px){
+ .service-sticky-action{justify-content:flex-end;margin:-2.6rem -1rem .5rem 0}
+ .service-sticky-action a{font-size:.94rem;padding:.65rem 1rem}
+}
