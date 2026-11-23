@@ -106,3 +106,20 @@ body:has(.service-collection) .service-card.feature{background:rgba(255,255,255,
 
 /* Quiet, editorial informational notes for group appointments and gratuities. */
 .appreciation-note{max-width:850px;margin:2.2rem auto;padding:1.5rem 2rem;text-align:center;border-top:1px solid #d8e9e8;border-bottom:1px solid #d8e9e8;color:#24536b;background:rgba(234,245,244,.3)}.appreciation-note h2{font-family:Palatino,'Palatino Linotype',Georgia,serif;font-weight:400;font-style:italic;color:#397e83;margin:.15rem 0 .7rem}.appreciation-note p{margin:.65rem auto;max-width:700px;line-height:1.75}.planner-gratuity{font-size:.92rem;color:#397e83;margin:1rem 0}
+
+/* Preview: matching coastal editorial service-page titles and a gentle wave flourish. */
+body:has(.service-collection) .service-lead h1{
+  font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;
+  font-weight:400!important;
+  font-style:italic!important;
+  font-size:clamp(3rem,6.3vw,5.25rem)!important;
+  letter-spacing:-.035em!important;
+  line-height:1.16!important;
+  color:#285f6e;
+  margin:.35rem auto .3rem;
+}
+body:has(.service-collection) .service-lead h1::after{
+  content:'';display:block;width:172px;max-width:48%;height:22px;margin:15px auto 13px;
+  background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 172 22'%3E%3Cpath d='M5 11 C20 2 34 20 49 11 S78 2 93 11 S122 20 137 11 S156 2 167 11' fill='none' stroke='%2375adb0' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+body:has(.service-collection) .service-lead p{max-width:700px;margin:0 auto 1.5rem}
