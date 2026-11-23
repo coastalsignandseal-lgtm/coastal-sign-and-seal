@@ -317,3 +317,8 @@ body > .service-sticky-action a{flex-direction:column!important;gap:1px!importan
 body > .service-sticky-action a span{display:block;font-size:1.02rem;font-weight:600}
 body > .service-sticky-action a small{display:block;font-size:.76rem;font-weight:400;letter-spacing:.015em;opacity:.94}
 @media(max-width:600px){body > .service-sticky-action a span{font-size:.94rem}body > .service-sticky-action a small{font-size:.7rem}}
+
+/* Force two distinct lines in the sticky service action (desktop and mobile). */
+html body > div.service-sticky-action > a{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:4px!important;line-height:1.2!important;white-space:normal!important;min-height:66px!important;padding:9px 22px!important}
+html body > div.service-sticky-action > a > span{display:block!important;width:100%!important;text-align:center!important;font:600 1.08rem/1.2 'Palatino Linotype',Palatino,Georgia,serif!important;white-space:nowrap!important}
+html body > div.service-sticky-action > a > small{display:block!important;width:100%!important;text-align:center!important;font:400 .79rem/1.2 'Palatino Linotype',Palatino,Georgia,serif!important;white-space:nowrap!important}
