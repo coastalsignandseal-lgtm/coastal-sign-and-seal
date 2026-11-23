@@ -96,3 +96,6 @@ body:has(.service-collection) .service-card .price{
   font-weight:600!important;font-size:1.4rem!important;color:#337e89!important;
 }
 body:has(.service-collection) .eyebrow{font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif!important;font-size:.85rem;letter-spacing:.14em}
+
+/* Keep the featured Written in the Tides card the same white as the other packages. */
+body:has(.service-collection) .service-card.feature{background:rgba(255,255,255,.89)!important}
