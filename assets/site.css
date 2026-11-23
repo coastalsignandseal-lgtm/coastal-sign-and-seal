@@ -311,3 +311,9 @@ body > .service-sticky-action + .page{margin-top:2.5rem}
 .notary-confirmation ul{text-align:left;padding-left:1.3rem;margin:1rem auto;max-width:490px}
 .notary-confirmation li{margin:.65rem 0}
 .notary-confirmation button{border:0;border-radius:999px;background:#397c85;color:white;font:600 1.12rem 'Palatino Linotype',Palatino,Georgia,serif;padding:.8rem 2rem}
+
+/* Keep the original playful booking names, with a clear smaller action below. */
+body > .service-sticky-action a{flex-direction:column!important;gap:1px!important;line-height:1.25!important;text-align:center!important;white-space:normal!important;min-height:54px!important}
+body > .service-sticky-action a span{display:block;font-size:1.02rem;font-weight:600}
+body > .service-sticky-action a small{display:block;font-size:.76rem;font-weight:400;letter-spacing:.015em;opacity:.94}
+@media(max-width:600px){body > .service-sticky-action a span{font-size:.94rem}body > .service-sticky-action a small{font-size:.7rem}}
