@@ -338,3 +338,7 @@ html body > div.service-sticky-action > a > small{display:block!important;width:
 .offerings-choice p{font:1.12rem/1.8 'Palatino Linotype',Palatino,Georgia,serif;max-width:390px;margin:0 auto 1.4rem;color:#476773}
 .offerings-choice-link{display:inline-block;background:#397c85;color:#fff;border-radius:999px;padding:.85rem 1.45rem;font:600 1rem 'Palatino Linotype',Palatino,Georgia,serif}
 @media(max-width:700px){.offerings-choices{grid-template-columns:1fr}.offerings-choice{min-height:280px}.offerings-lead{padding:2.3rem 1.3rem;border-radius:10px 42px 10px 42px}}
+
+/* Uploaded authentic first-wedding photo on Impressions. */
+.impression-photo-slot{overflow:hidden}
+.impression-photo-slot img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain;border-radius:inherit}
