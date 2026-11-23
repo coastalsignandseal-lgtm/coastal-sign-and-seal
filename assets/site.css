@@ -322,3 +322,19 @@ body > .service-sticky-action a small{display:block;font-size:.76rem;font-weight
 html body > div.service-sticky-action > a{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:4px!important;line-height:1.2!important;white-space:normal!important;min-height:66px!important;padding:9px 22px!important}
 html body > div.service-sticky-action > a > span{display:block!important;width:100%!important;text-align:center!important;font:600 1.08rem/1.2 'Palatino Linotype',Palatino,Georgia,serif!important;white-space:nowrap!important}
 html body > div.service-sticky-action > a > small{display:block!important;width:100%!important;text-align:center!important;font:400 .79rem/1.2 'Palatino Linotype',Palatino,Georgia,serif!important;white-space:nowrap!important}
+
+/* Offerings: two equal, fully clickable coastal service cards. */
+.offerings-page{max-width:1080px;text-align:center;font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif}
+.offerings-lead{max-width:920px;margin:0 auto 2.8rem;padding:3rem 2rem;background:linear-gradient(135deg,#eaf7f5,#fffdf9);border:1px solid #d5e6e3;border-radius:12px 68px 12px 68px;box-shadow:0 12px 32px rgba(42,93,105,.055)}
+.offerings-lead .eyebrow{font:400 11px Georgia,serif;letter-spacing:.19em;text-transform:uppercase;color:#8b805e}
+.offerings-lead h1{font:400 clamp(2.6rem,5vw,4.2rem)/1.2 'Palatino Linotype',Palatino,Georgia,serif;color:#25576b;margin:.9rem 0}
+.offerings-lead h1::after{content:'';display:block;width:125px;height:15px;margin:.8rem auto;background:transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 125 15'%3E%3Cpath d='M2 8Q18 0 33 8T63 8T93 8T123 8' fill='none' stroke='%2375adb0' stroke-width='2'/%3E%3C/svg%3E") center/contain no-repeat}
+.offerings-lead p{max-width:700px;margin:0 auto;font:1.12rem/1.8 'Palatino Linotype',Palatino,Georgia,serif;color:#506a73}
+.offerings-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.6rem;margin:0 auto 3rem}
+.offerings-choice{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:345px;padding:2.3rem 1.7rem;border:1px solid #d5e7e5;border-radius:38px 38px 62px 38px;background:linear-gradient(145deg,#fff,#f1faf8);box-shadow:0 12px 35px rgba(40,95,106,.055);color:#244b61;text-decoration:none;transition:transform .18s ease,box-shadow .18s ease}
+.offerings-choice:hover,.offerings-choice:focus-visible{transform:translateY(-5px);box-shadow:0 17px 35px rgba(40,95,106,.14)}
+.offerings-choice-icon{font:400 3rem Georgia,serif;color:#b38d52;line-height:1}
+.offerings-choice h2{font:italic 400 clamp(1.9rem,3vw,2.7rem)/1.2 'Palatino Linotype',Palatino,Georgia,serif;color:#286d7a;margin:1rem 0}
+.offerings-choice p{font:1.12rem/1.8 'Palatino Linotype',Palatino,Georgia,serif;max-width:390px;margin:0 auto 1.4rem;color:#476773}
+.offerings-choice-link{display:inline-block;background:#397c85;color:#fff;border-radius:999px;padding:.85rem 1.45rem;font:600 1rem 'Palatino Linotype',Palatino,Georgia,serif}
+@media(max-width:700px){.offerings-choices{grid-template-columns:1fr}.offerings-choice{min-height:280px}.offerings-lead{padding:2.3rem 1.3rem;border-radius:10px 42px 10px 42px}}
